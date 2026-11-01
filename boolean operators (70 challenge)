@@ -1,0 +1,3 @@
+for o in obstacles:
+    if o.is_fence() and o.is_on_ground():
+        dragon.smash(o)
